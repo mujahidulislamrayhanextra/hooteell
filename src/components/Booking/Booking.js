@@ -17,7 +17,7 @@ const Booking = () => {
             .then(data => {
                 setBookings(data);
                 console.log(data);
-                console.log(bookings);
+                // console.log(bookings);
             })
     },[])
  
